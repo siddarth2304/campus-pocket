@@ -56,6 +56,8 @@ Campus Pocket introduces a **Parent Intelligence System** that does the heavy li
 * 🧠 **AI Insight Card:** Generates the reason for the risk and actionable next steps.
 * 🎙️ **Text-to-Speech (TTS):** Auditory support for accessible updates.
 * 🤖 **Cortex Buddy:** Interactive voice-enabled assistant for deep dives into student data.
+* * **Voice-to-Text Input:** Hands-free querying for parents on the go.
+* **Predictive Analytics:** Forecasting end-of-term grades based on early semester behavior.
 
 ### 👨‍🎓 Student Portal
 * 📚 **Classroom Feed:** Centralized hub for daily updates.
@@ -152,8 +154,6 @@ We implemented a **Context Builder + Inference Layer** instead of relying entire
 ## 🔮 Future Enhancements
 
 * **Generative AI Integration:** Full LLM-based custom insight generation.
-* **Voice-to-Text Input:** Hands-free querying for parents on the go.
-* **Predictive Analytics:** Forecasting end-of-term grades based on early semester behavior.
 * **Personalized Study Plans:** Auto-generating weekly routines for struggling students.
 
 ---
