@@ -1,16 +1,23 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import dotenv from 'dotenv';
+
 dotenv.config();
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "AIzaSyAwFyHSTgoRQ0sj-J3QSnAs5grqesQiQlU");
+const apiKey = process.env.GEMINI_API_KEY;
+
+if (!apiKey) {
+  throw new Error("❌ GEMINI_API_KEY not found in .env file");
+}
+
+const genAI = new GoogleGenerativeAI(apiKey);
 
 async function testModel(modelName) {
   try {
     const model = genAI.getGenerativeModel({ model: modelName });
     const result = await model.generateContent("Hello");
-    console.log(`Success with ${modelName}:`, result.response.text());
+    console.log(`✅ Success with ${modelName}:`, result.response.text());
   } catch (e) {
-    console.log(`Failed with ${modelName}:`, e.message);
+    console.log(`❌ Failed with ${modelName}:`, e.message);
   }
 }
 
