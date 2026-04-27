@@ -160,7 +160,7 @@ We implemented a **Context Builder + Inference Layer** instead of relying entire
 
 ## 👨‍💻 Team & Acknowledgment
 
-**Built by the Campus Cortex AI Challenge Team** *Developed during Krithoathon 4.0 with a strict focus on speed, scalability, and real-world usability.*
+**Built for  the Campus Cortex AI  Team** *Developed during Krithoathon 4.0 with a strict focus on speed, scalability, and real-world usability.*
 
 ---
 *Campus Pocket — Transforming academic data into parenting decisions.*
