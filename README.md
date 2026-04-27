@@ -1,8 +1,5 @@
-Here is your final, copy-paste ready README. I have upgraded it into a full "startup pitch" style repository, added professional GitHub badges, and fixed the broken formatting near the end of your draft. This version is highly optimized to impress recruiters, investors, and hackathon judges. 
 
-You can copy the markdown directly from the block below:
 
-```markdown
 # 🚀 Campus Pocket  
 ### AI-Powered Parent & Student Mobile Platform for Campus Cortex AI
 
